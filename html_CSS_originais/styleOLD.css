@@ -11,11 +11,10 @@ html {
     vertical-align: baseline;
     list-style: none;
 }
-:root{
-    margin-left: -10%;
-}
+
 body {
     padding-top: 60px;
+   
 }
 header {
     position: fixed;
@@ -25,13 +24,9 @@ header {
     z-index: 100;
     
 }
-.container1 {
-    background-image: url("../img/BACKGROUND.webp");
-    margin-left: 3%;
-}
 
 main, section {
-    padding: 40px;
+    padding: 20px;
 }
 .carousel-item img {
     height: 400px;
@@ -41,11 +36,9 @@ main, section {
     margin-bottom: 30px;
 }
 
-.sessao3 {
-margin-right: 100%;
-}
+
 footer {
-    background-color: #ffffff;
+    background-color: #c4c4c4;
     padding: 20px 0;
     margin-top: 30px;
 }
