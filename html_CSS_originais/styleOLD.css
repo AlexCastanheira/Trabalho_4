@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+:root{
+    margin-left: -10%;
+}
+body {
+    padding-top: 60px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    
+}
+.container1 {
+    background-image: url("../img/BACKGROUND.webp");
+    margin-left: 3%;
+}
+
+main, section {
+    padding: 40px;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: scale-down;
+}
+.card, .table {
+    margin-bottom: 30px;
+}
+
+.sessao3 {
+margin-right: 100%;
+}
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+@media (max-width:767px) {
+    body {
+    padding-top: 120px;
+}
+}@media (max-width:576px) {
+    .carousel-item img {
+    height: 200px;
+}
+}
+
+
+.parallax {
+    /* imagem */
+    background-image: url("../img/BACKGROUND.webp");
+
+    /* altura */
+    min-height: 500px;
+
+    /* efeito de scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
