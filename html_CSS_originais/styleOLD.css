@@ -55,7 +55,7 @@ footer {
 
 .parallax {
     /* imagem */
-    background-image: url("../img/BACKGROUND.webp");
+    background-image: url("img/BACKGROUND.webp");
 
     /* altura */
     min-height: 500px;
